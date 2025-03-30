@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${KarlaSans.variable}  antialiased`}>
-        <StoreProvider children={children} />
+        <StoreProvider>{children}</StoreProvider>
       </body>
     </html>
   );
