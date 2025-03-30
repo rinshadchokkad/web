@@ -49,7 +49,7 @@ export default function Navbar() {
         initial={{ x: -100, opacity: 0 }}
         animate={isNavbarOpen ? { x: 0, opacity: 1 } : { x: -100, opacity: 0 }}
         transition={{ duration: 0.3 }}
-        className="absolute sm:hidden h-screen w-screen flex flex-col  justify-around  left-0  bg-white text-black items-center "
+        className="absolute sm:hidden h-[100vh] w-screen flex flex-col  justify-around  left-0  bg-white text-black items-center "
       >
         <ul className="flex flex-col gap-12 justify-center items-center">
           {navList.map((e, i) => {
