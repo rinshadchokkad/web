@@ -54,9 +54,23 @@ body {
 }
 
 .title-font {
-  @apply text-7xl;
+  @apply text-4xl sm:text-6xl;
 }
 
 .gradient-color {
   @apply bg-[#003366] bg-gradient-to-br from-[#003366] to-[#242124];
+}
+
+.nav-item {
+  @apply text-sm h-12  ease-linear duration-300 flex px-4 justify-center items-center hover:border-blue-400 border-b-foreground cursor-pointer;
+}
+.nav-item-selected {
+  @apply text-sm h-12 border-b-2 ease-linear duration-300 border-white  flex px-6 justify-center items-center hover:border-blue-400 border-b-foreground;
+}
+
+.nav-item-mobile {
+  @apply text-sm;
+}
+.nav-item-selected-mobile {
+  @apply text-sm py-2  flex justify-center border-y-2 w-full ease-linear duration-300  border-blue-950;
 }

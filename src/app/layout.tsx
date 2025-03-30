@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Karla } from "next/font/google";
 import "./globals.css";
+import StoreProvider from "./store/StoreProvider";
 
 const KarlaSans = Karla({
   variable: "--font-geist-sans",
@@ -19,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${KarlaSans.variable}  antialiased`}>{children}</body>
+      <body className={`${KarlaSans.variable}  antialiased`}>
+        <StoreProvider children={children} />
+      </body>
     </html>
   );
 }

@@ -1,11 +1,12 @@
-import Ball from "./components/home/Ball";
-import Banner from "./components/home/Banner";
+"use client";
+import HomePage from "./components/home/HomePage";
 
 export default function Home() {
+  // const currentNavbar = useAppSelector(selectCurrentNavBar);
+
   return (
     <>
-      <Ball />
-      <Banner />
+      <HomePage />
     </>
   );
 }
