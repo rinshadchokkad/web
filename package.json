@@ -1,6 +1,7 @@
 {
-  "name": "fuse-react-app",
+  "name": "web",
   "version": "14.0.0",
+  "homepage": "https://rinshadchokkad.github.io/web/",
   "private": true,
   "type": "module",
   "dependencies": {
@@ -29,6 +30,7 @@
     "draft-js": "0.11.7",
     "draftjs-to-html": "0.9.1",
     "firebase": "^11.2.0",
+    "gh-pages": "^6.3.0",
     "history": "5.3.0",
     "i18next": "24.0.5",
     "jwt-decode": "3.1.2",
@@ -120,6 +122,7 @@
     "lint": "eslint ./src --config ./eslint.config.mjs",
     "lint:fix": "eslint --fix ./src --config ./eslint.config.mjs",
     "preview": "vite preview",
+    "deploy": "vite preview",
     "build-docs": "npx tsx  \"./src/app/(public)/documentation/material-ui-components/utils/build.ts\"",
     "postinstall": "node src/utils/node-scripts/fuse-react-message.js",
     "poststart": "node src/utils/node-scripts/fuse-react-message.js",
