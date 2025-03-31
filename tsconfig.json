@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": "./web",
     "paths": {
      "@auth/*": [
         "./src/@auth/*"
