@@ -27,6 +27,7 @@ export default defineConfig({
     },
     tailwindcss(),
   ],
+  base: "/web",
   build: {
     outDir: "build",
   },
@@ -40,7 +41,6 @@ export default defineConfig({
     "import.meta.env.VITE_PORT": JSON.stringify(process.env.PORT || 3000),
     global: "window",
   },
-  base: "/web",
   resolve: {
     alias: {
       "@": "/src",
