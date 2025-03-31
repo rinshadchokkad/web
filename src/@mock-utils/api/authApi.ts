@@ -98,7 +98,7 @@ const authApi = [
 			const newUser = UserModel({
 				role: ['admin'],
 				displayName,
-				photoURL: '/assets/images/avatars/Abbott.jpg',
+				photoURL: './assets/images/avatars/Abbott.jpg',
 				email,
 				shortcuts: [],
 				settings: {}

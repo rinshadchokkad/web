@@ -14,7 +14,7 @@ const tabs = [
   {
     id: "jwt",
     title: "JWT",
-    logo: "/assets/images/logo/jwt.svg",
+    logo: "./assets/images/logo/jwt.svg",
     logoClass: "h-9 p-1 bg-black rounded-lg",
   },
 ];
@@ -33,7 +33,7 @@ function SignUpPage() {
     <div className="flex min-w-0 flex-1 flex-col items-center sm:flex-row sm:justify-center md:items-start md:justify-start">
       <Paper className="h-full w-full px-4 py-2 ltr:border-r-1 rtl:border-l-1 sm:h-auto sm:w-auto sm:rounded-xl sm:p-12 sm:shadow-sm md:flex md:h-full md:w-1/2 md:items-center md:justify-end md:rounded-none md:p-16 md:shadow-none">
         <div className="mx-auto w-full max-w-80 sm:mx-0 sm:w-80">
-          <img className="w-12" src="/assets/images/logo/logo.svg" alt="logo" />
+          <img className="w-12" src="../assets/images/logo/logo.svg" alt="logo" />
 
           <Typography className="mt-8 text-4xl font-extrabold leading-[1.25] tracking-tight">
             Sign up
@@ -119,10 +119,10 @@ function SignUpPage() {
                 },
               }}
             >
-              <Avatar src="/assets/images/avatars/female-18.jpg" />
-              <Avatar src="/assets/images/avatars/female-11.jpg" />
-              <Avatar src="/assets/images/avatars/male-09.jpg" />
-              <Avatar src="/assets/images/avatars/male-16.jpg" />
+              <Avatar src="./assets/images/avatars/female-18.jpg" />
+              <Avatar src="./assets/images/avatars/female-11.jpg" />
+              <Avatar src="./assets/images/avatars/male-09.jpg" />
+              <Avatar src="./assets/images/avatars/male-16.jpg" />
             </AvatarGroup>
 
             <div className="ml-4 font-medium tracking-tight text-gray-400">

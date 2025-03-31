@@ -135,7 +135,7 @@ function PoweredByLinks() {
 					role="button"
 				>
 					<img
-						src="/assets/images/logo/vite.svg"
+						src="./assets/images/logo/vite.svg"
 						alt="vite"
 						className="min-w-0 w-7"
 					/>
@@ -155,7 +155,7 @@ function PoweredByLinks() {
 					role="button"
 				>
 					<img
-						src="/assets/images/logo/msw.svg"
+						src="./assets/images/logo/msw.svg"
 						alt="Mock Service Worker"
 						className="min-w-0 w-7"
 					/>
