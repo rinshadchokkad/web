@@ -27,7 +27,7 @@ export default defineConfig({
     },
     tailwindcss(),
   ],
-//   base: "/web",
+  base: "/web",
   build: {
     outDir: "build",
   },
