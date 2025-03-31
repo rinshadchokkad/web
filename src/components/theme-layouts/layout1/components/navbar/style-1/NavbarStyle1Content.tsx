@@ -64,7 +64,7 @@ function NavbarStyle1Content(props: NavbarStyle1ContentProps) {
         <div className="shrink-0 flex items-center justify-center py-12 opacity-10">
           <img
             className="w-full max-w-16"
-            src="../assets/images/logo/logo.svg"
+            src="/assets/images/logo/logo.svg"
             alt="footer logo"
           />
         </div>

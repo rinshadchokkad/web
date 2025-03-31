@@ -71,7 +71,7 @@ function FuseSvgIcon(props: FuseSvgIconProps) {
 			ref={ref}
 			color={color}
 		>
-			<use xlinkHref={`./assets/icons/${iconPath}`} />
+			<use xlinkHref={`/assets/icons/${iconPath}`} />
 		</Root>
 	);
 }
